@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.gold-button {
+    font-family: $font-noto;
+    display:block;
+    text-transform:uppercase;
+    background-color: $gold;
+    color: $white;
+    padding: 11px 35px 12px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+    &:hover {
+        text-decoration:none;
+        background-color: $gold-dark;
+    }
+}
+
+.standart-container {
+    width: $content-body-width-desctop;
+    margin: auto;
+}
